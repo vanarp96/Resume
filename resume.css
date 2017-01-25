@@ -1,0 +1,120 @@
+body{
+ background-image: url(resources/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Segoe UI Light", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	color: white;
+}
+
+
+h1.Name{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    text-align-last: center;
+    font-style: normal;
+    font-size: 40pt;
+    height: 25pt;
+}
+
+h3.Address{
+    font-style: normal;
+    height: 5pt;
+    
+    
+}
+
+hr{
+    width: 80%;
+}
+
+a{
+    color: blueviolet;
+    font-style: normal;
+    text-decoration: none;
+}
+
+table{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: top;
+  
+}
+
+tr{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: top;
+    
+}
+td{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: top;
+
+}
+td.spacing{
+    width: 60pt;
+}
+
+.left_align{
+    text-align: left;
+    align-content: flex-start;
+}
+
+.right_align{
+    text-align: right;
+}
+
+
+.bold{
+font-weight: bold;
+}
+
+tr.research{
+    vertical-align: top;
+    position: relative; 
+    width: 50%;
+    height: 50%
+}
+td.research{
+    vertical-align: top;
+    position: relative; 
+    width: 50%;
+}
+table.research{
+    vertical-align: top;
+    position: relative; 
+    width: 80%;
+}
+.fixwidth{
+    vertical-align: top;
+    position: relative; 
+    width: 80%;
+}
+img{
+    height:100px;
+    width: 100px;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
